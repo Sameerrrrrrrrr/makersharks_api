@@ -1,0 +1,139 @@
+2024-08-22T21:56:44.269+05:30  INFO 30600 --- [makersharks_api] [restartedMain] com.project.MakersharksApiApplication    : Starting MakersharksApiApplication using Java 17.0.9 with PID 30600 (D:\Workspace\makersharks_api\target\classes started by DELL E5490 in D:\Workspace\makersharks_api)
+2024-08-22T21:56:44.272+05:30  INFO 30600 --- [makersharks_api] [restartedMain] com.project.MakersharksApiApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-08-22T21:56:44.346+05:30  INFO 30600 --- [makersharks_api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-22T21:56:44.346+05:30  INFO 30600 --- [makersharks_api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-22T21:56:45.574+05:30  INFO 30600 --- [makersharks_api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-22T21:56:45.644+05:30  INFO 30600 --- [makersharks_api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interface.
+2024-08-22T21:56:46.302+05:30  INFO 30600 --- [makersharks_api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-22T21:56:46.315+05:30  INFO 30600 --- [makersharks_api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-22T21:56:46.315+05:30  INFO 30600 --- [makersharks_api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-22T21:56:46.387+05:30  INFO 30600 --- [makersharks_api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-22T21:56:46.387+05:30  INFO 30600 --- [makersharks_api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2039 ms
+2024-08-22T21:56:46.427+05:30  INFO 30600 --- [makersharks_api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-22T21:56:46.650+05:30  INFO 30600 --- [makersharks_api] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=USER
+2024-08-22T21:56:46.652+05:30  INFO 30600 --- [makersharks_api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-22T21:56:46.674+05:30  INFO 30600 --- [makersharks_api] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-08-22T21:56:47.336+05:30  INFO 30600 --- [makersharks_api] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-22T21:56:48.550+05:30  INFO 30600 --- [makersharks_api] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T21:56:49.033+05:30  WARN 30600 --- [makersharks_api] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-22T21:56:49.510+05:30  INFO 30600 --- [makersharks_api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-22T21:56:49.562+05:30  INFO 30600 --- [makersharks_api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-22T21:56:49.577+05:30  INFO 30600 --- [makersharks_api] [restartedMain] com.project.MakersharksApiApplication    : Started MakersharksApiApplication in 5.871 seconds (process running for 7.22)
+2024-08-22T21:57:16.299+05:30  INFO 30600 --- [makersharks_api] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-22T21:57:16.299+05:30  INFO 30600 --- [makersharks_api] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-22T21:57:16.299+05:30  INFO 30600 --- [makersharks_api] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-08-22T21:57:17.513+05:30  INFO 30600 --- [makersharks_api] [http-nio-8080-exec-10] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 548 ms
+2024-08-22T22:00:20.571+05:30  INFO 30600 --- [makersharks_api] [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-08-22T22:00:20.795+05:30  INFO 30600 --- [makersharks_api] [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T22:00:20.803+05:30  WARN 30600 --- [makersharks_api] [RMI TCP Connection(7)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-08-22T22:00:20.805+05:30  INFO 30600 --- [makersharks_api] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-22T22:00:20.808+05:30  INFO 30600 --- [makersharks_api] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-22T22:01:31.508+05:30  INFO 27280 --- [makersharks_api] [restartedMain] com.project.MakersharksApiApplication    : Starting MakersharksApiApplication using Java 17.0.9 with PID 27280 (D:\Workspace\makersharks_api\target\classes started by DELL E5490 in D:\Workspace\makersharks_api)
+2024-08-22T22:01:31.511+05:30  INFO 27280 --- [makersharks_api] [restartedMain] com.project.MakersharksApiApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-08-22T22:01:31.599+05:30  INFO 27280 --- [makersharks_api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-22T22:01:31.600+05:30  INFO 27280 --- [makersharks_api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-22T22:01:33.044+05:30  INFO 27280 --- [makersharks_api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-22T22:01:33.130+05:30  INFO 27280 --- [makersharks_api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interface.
+2024-08-22T22:01:33.858+05:30  INFO 27280 --- [makersharks_api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-22T22:01:33.871+05:30  INFO 27280 --- [makersharks_api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-22T22:01:33.872+05:30  INFO 27280 --- [makersharks_api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-22T22:01:33.941+05:30  INFO 27280 --- [makersharks_api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-22T22:01:33.941+05:30  INFO 27280 --- [makersharks_api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2339 ms
+2024-08-22T22:01:33.980+05:30  INFO 27280 --- [makersharks_api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-22T22:01:34.190+05:30  INFO 27280 --- [makersharks_api] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=USER
+2024-08-22T22:01:34.202+05:30  INFO 27280 --- [makersharks_api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-22T22:01:34.229+05:30  INFO 27280 --- [makersharks_api] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-08-22T22:01:34.887+05:30  INFO 27280 --- [makersharks_api] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-22T22:01:36.051+05:30  INFO 27280 --- [makersharks_api] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T22:01:36.585+05:30  WARN 27280 --- [makersharks_api] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-22T22:01:37.131+05:30  INFO 27280 --- [makersharks_api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-22T22:01:37.204+05:30  INFO 27280 --- [makersharks_api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-22T22:01:37.222+05:30  INFO 27280 --- [makersharks_api] [restartedMain] com.project.MakersharksApiApplication    : Started MakersharksApiApplication in 6.326 seconds (process running for 7.578)
+2024-08-22T22:01:45.040+05:30  INFO 27280 --- [makersharks_api] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-22T22:01:45.042+05:30  INFO 27280 --- [makersharks_api] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-22T22:01:45.043+05:30  INFO 27280 --- [makersharks_api] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-22T22:01:45.733+05:30  INFO 27280 --- [makersharks_api] [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 402 ms
+2024-08-22T22:02:37.686+05:30  INFO 27280 --- [makersharks_api] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-22T22:02:37.889+05:30  INFO 27280 --- [makersharks_api] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T22:02:37.894+05:30  WARN 27280 --- [makersharks_api] [Thread-5] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-08-22T22:02:37.895+05:30  INFO 27280 --- [makersharks_api] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-22T22:02:37.896+05:30  INFO 27280 --- [makersharks_api] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-22T22:02:38.012+05:30  INFO 27280 --- [makersharks_api] [restartedMain] com.project.MakersharksApiApplication    : Starting MakersharksApiApplication using Java 17.0.9 with PID 27280 (D:\Workspace\makersharks_api\target\classes started by DELL E5490 in D:\Workspace\makersharks_api)
+2024-08-22T22:02:38.013+05:30  INFO 27280 --- [makersharks_api] [restartedMain] com.project.MakersharksApiApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-08-22T22:02:38.287+05:30  INFO 27280 --- [makersharks_api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-22T22:02:38.300+05:30  INFO 27280 --- [makersharks_api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interface.
+2024-08-22T22:02:38.437+05:30  INFO 27280 --- [makersharks_api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-22T22:02:38.438+05:30  INFO 27280 --- [makersharks_api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-22T22:02:38.438+05:30  INFO 27280 --- [makersharks_api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-22T22:02:38.460+05:30  INFO 27280 --- [makersharks_api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-22T22:02:38.460+05:30  INFO 27280 --- [makersharks_api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 444 ms
+2024-08-22T22:02:38.473+05:30  INFO 27280 --- [makersharks_api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-08-22T22:02:38.476+05:30  INFO 27280 --- [makersharks_api] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:testdb user=USER
+2024-08-22T22:02:38.477+05:30  INFO 27280 --- [makersharks_api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-08-22T22:02:38.477+05:30  INFO 27280 --- [makersharks_api] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-08-22T22:02:38.521+05:30  INFO 27280 --- [makersharks_api] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-22T22:02:38.579+05:30  INFO 27280 --- [makersharks_api] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T22:02:38.677+05:30  WARN 27280 --- [makersharks_api] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-22T22:02:38.806+05:30  INFO 27280 --- [makersharks_api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-22T22:02:38.840+05:30  INFO 27280 --- [makersharks_api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-22T22:02:38.852+05:30  INFO 27280 --- [makersharks_api] [restartedMain] com.project.MakersharksApiApplication    : Started MakersharksApiApplication in 0.882 seconds (process running for 69.208)
+2024-08-22T22:02:38.856+05:30  INFO 27280 --- [makersharks_api] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-22T22:02:42.248+05:30  INFO 27280 --- [makersharks_api] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-22T22:02:42.248+05:30  INFO 27280 --- [makersharks_api] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-22T22:02:42.249+05:30  INFO 27280 --- [makersharks_api] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-22T22:02:42.531+05:30  INFO 27280 --- [makersharks_api] [http-nio-8080-exec-5] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 94 ms
+2024-08-22T22:03:17.681+05:30  INFO 27280 --- [makersharks_api] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-22T22:03:17.870+05:30  INFO 27280 --- [makersharks_api] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T22:03:17.871+05:30  WARN 27280 --- [makersharks_api] [Thread-7] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-08-22T22:03:17.871+05:30  INFO 27280 --- [makersharks_api] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-08-22T22:03:17.872+05:30  INFO 27280 --- [makersharks_api] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-08-22T22:03:17.991+05:30  INFO 27280 --- [makersharks_api] [restartedMain] com.project.MakersharksApiApplication    : Starting MakersharksApiApplication using Java 17.0.9 with PID 27280 (D:\Workspace\makersharks_api\target\classes started by DELL E5490 in D:\Workspace\makersharks_api)
+2024-08-22T22:03:17.992+05:30  INFO 27280 --- [makersharks_api] [restartedMain] com.project.MakersharksApiApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-08-22T22:03:18.295+05:30  INFO 27280 --- [makersharks_api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-22T22:03:18.314+05:30  INFO 27280 --- [makersharks_api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interface.
+2024-08-22T22:03:18.471+05:30  INFO 27280 --- [makersharks_api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-22T22:03:18.472+05:30  INFO 27280 --- [makersharks_api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-22T22:03:18.472+05:30  INFO 27280 --- [makersharks_api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-22T22:03:18.497+05:30  INFO 27280 --- [makersharks_api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-22T22:03:18.497+05:30  INFO 27280 --- [makersharks_api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 504 ms
+2024-08-22T22:03:18.515+05:30  INFO 27280 --- [makersharks_api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-08-22T22:03:18.517+05:30  INFO 27280 --- [makersharks_api] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn20: url=jdbc:h2:mem:testdb user=USER
+2024-08-22T22:03:18.517+05:30  INFO 27280 --- [makersharks_api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-08-22T22:03:18.517+05:30  INFO 27280 --- [makersharks_api] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-08-22T22:03:18.553+05:30  INFO 27280 --- [makersharks_api] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-22T22:03:18.602+05:30  INFO 27280 --- [makersharks_api] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T22:03:18.713+05:30  WARN 27280 --- [makersharks_api] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-22T22:03:18.881+05:30  INFO 27280 --- [makersharks_api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-22T22:03:18.900+05:30  INFO 27280 --- [makersharks_api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-22T22:03:18.905+05:30  INFO 27280 --- [makersharks_api] [restartedMain] com.project.MakersharksApiApplication    : Started MakersharksApiApplication in 0.941 seconds (process running for 109.261)
+2024-08-22T22:03:18.907+05:30  INFO 27280 --- [makersharks_api] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-22T22:03:19.797+05:30  INFO 27280 --- [makersharks_api] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-22T22:03:19.797+05:30  INFO 27280 --- [makersharks_api] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-22T22:03:19.800+05:30  INFO 27280 --- [makersharks_api] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-08-22T22:03:20.068+05:30  INFO 27280 --- [makersharks_api] [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 79 ms
+2024-08-22T22:03:37.062+05:30  INFO 27280 --- [makersharks_api] [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-08-22T22:03:37.555+05:30  INFO 27280 --- [makersharks_api] [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T22:03:37.557+05:30  WARN 27280 --- [makersharks_api] [RMI TCP Connection(4)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-08-22T22:03:37.557+05:30  INFO 27280 --- [makersharks_api] [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-08-22T22:03:37.560+05:30  INFO 27280 --- [makersharks_api] [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-08-22T22:07:21.234+05:30  INFO 24876 --- [makersharks_api] [main] com.project.SupplierControllerTest       : Starting SupplierControllerTest using Java 17.0.9 with PID 24876 (started by DELL E5490 in D:\Workspace\makersharks_api)
+2024-08-22T22:07:21.237+05:30  INFO 24876 --- [makersharks_api] [main] com.project.SupplierControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2024-08-22T22:07:23.050+05:30  INFO 24876 --- [makersharks_api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-22T22:07:23.169+05:30  INFO 24876 --- [makersharks_api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103 ms. Found 1 JPA repository interface.
+2024-08-22T22:07:24.972+05:30  INFO 24876 --- [makersharks_api] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-22T22:07:25.016+05:30  INFO 24876 --- [makersharks_api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-22T22:07:25.264+05:30  INFO 24876 --- [makersharks_api] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=USER
+2024-08-22T22:07:25.267+05:30  INFO 24876 --- [makersharks_api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-22T22:07:26.389+05:30  INFO 24876 --- [makersharks_api] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T22:07:27.170+05:30  WARN 24876 --- [makersharks_api] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-22T22:07:27.814+05:30  INFO 24876 --- [makersharks_api] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-08-22T22:07:27.815+05:30  INFO 24876 --- [makersharks_api] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-08-22T22:07:27.818+05:30  INFO 24876 --- [makersharks_api] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-08-22T22:07:27.866+05:30  INFO 24876 --- [makersharks_api] [main] com.project.SupplierControllerTest       : Started SupplierControllerTest in 7.339 seconds (process running for 9.081)
+2024-08-22T22:07:29.098+05:30  WARN 24876 --- [makersharks_api] [main] PageModule$PlainPageSerializationWarning : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-08-22T22:07:29.150+05:30  INFO 24876 --- [makersharks_api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T22:07:29.153+05:30  INFO 24876 --- [makersharks_api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-22T22:07:29.158+05:30  INFO 24876 --- [makersharks_api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
