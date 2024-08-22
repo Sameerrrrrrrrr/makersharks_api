@@ -82,8 +82,8 @@ The response will be a JSON object containing a list of suppliers that match the
 ### Swagger Documentation
  you can access the API documentation at:
 
-- **Swagger UI:** [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui-custom.html)
-- **API Docs:** [http://localhost:8080/v3/api-docs](http://localhost:8080/api-docs)
+- **Swagger UI:** [http://localhost:8080/swagger-ui-custom.html](http://localhost:8080/swagger-ui-custom.html)
+- **API Docs:** [http://localhost:8080/api-docs](http://localhost:8080/api-docs)
 
 ### Configuration
 
