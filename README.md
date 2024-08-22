@@ -21,3 +21,21 @@ The Makersharks Search API is a Spring Boot application that provides a RESTful 
 ```bash
 git clone https://github.com/Sameerrrrrrrrr/makersharks-api.git
 cd makersharks-api
+
+## Build and Run the Application
+
+### Build the Project
+
+To build the project, use the following command:
+
+```bash
+./mvnw clean install
+
+## Run the Application
+
+To start the application, use the following command:
+
+```bash
+./mvnw spring-boot:run
+
+- **The application will be accessible at [http://localhost:8080](http://localhost:8080).**
