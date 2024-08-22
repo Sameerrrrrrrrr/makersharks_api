@@ -39,7 +39,7 @@ To start the application, use the following command:
 ./mvnw spring-boot:run
 
 - **The application will be accessible at [http://localhost:8080](http://localhost:8080).**
-
+```
 ## API Endpoints
 
 ### Search Suppliers
@@ -67,7 +67,7 @@ curl -X POST "http://localhost:8080/api/supplier/query" \
      -d "manufacturingProcesses=3d_printing" \
      -d "page=0" \
      -d "size=10"
-
+```
 ### Response
 
 The response will be a JSON object containing a list of suppliers that match the criteria. Each supplier object will include the following fields:
@@ -95,3 +95,4 @@ To run unit tests, use the following command:
 
 ```bash
 ./mvnw test
+```
