@@ -21,7 +21,7 @@ public class SupplierController {
 	@Autowired
     private SupplierService supplierService;
 	
-	
+	//API
 	@Operation(description = "Query for Suppliers data",summary = "Api to query the suppliers based on location, nature of business and manufacturing process")
 	@PostMapping("/query")
 	public ResponseEntity<Page<Supplier>> querySuppliers(
