@@ -15,6 +15,7 @@ public class Supplier {
     private Long supplierId;
     private String companyName;
     private String website;
+
     private String location;
     private String natureOfBusiness;
     private String manufacturingProcesses;
